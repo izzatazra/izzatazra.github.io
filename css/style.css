@@ -1,0 +1,280 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+body{
+	background-color: #2f4f4f;
+
+}
+span{
+	color: #00FFFF;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px 10px;
+	border-radius: 30px;
+	border: 5px solid transparent;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	background-color: #87CEFA;
+	color: black;
+	transition: .4s;
+
+}
+.btn{
+	background-color: #FFD700;
+	color: black;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: tranform .4s;
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+.content{
+	position: absolute;
+	top: 59%;
+	left: 8%;
+	transform: translateY(-50%);
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+	text-decoration: underline;
+	text-decoration-color: #FFD700;
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+h4{
+	color: #FFD700;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+img{
+	position: absolute;
+	top: 15%;
+	left: 8%;
+	transition: transform .4s;
+}
+img:hover{
+	transform: scale(1.2);
+}
+section div img{
+	position: absolute;
+	top: 100%;
+	right: 8%;
+}
+.biodata-text{
+	position: absolute;
+	top: 110%;
+	right: 5%;
+	color: white;
+	font-size: 30px;
+
+
+}
+div h2{
+	color: #FFD700;
+	font-size: 75px;
+	margin-bottom: 20px;
+	text-align: center;
+	transition: tranform .4s;
+
+}
+h2:hover{
+	transform: scale(1.2);}
+.work{
+	background-color: #DB7093;
+	color: white;
+	border: 2px solid black;
+	margin: 20px;
+	padding: 20px;
+}
+
+.experience{
+	position: absolute;
+	top: 210%;
+	right: 15%;
+
+}
+.allicons{
+	height: 350px;
+	top: 13%;
+	width: 335px;
+	right: 8%;
+	padding: 20px 35px;
+	border-radius: 20px;
+	margin: 15px;
+	position: absolute;
+	overflow: hidden;
+	text-align: center;
+}
+.skill{
+	background-color: #4682B4;
+	color: white;
+	border: 2px solid black;
+	margin: 20px;
+	padding: 20px;
+}
+.service{
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: #FFD700;
+	font-size: 75px;
+	width: 100%;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #20B2AA;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	color: darkcyan;
+}
+h5{
+	color: black;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra li{
+	color: #2F4F4F;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
+.gallery{
+	width: 100%;
+	padding: 100px 0px;
+}
+.mygallery h2{
+	color: yellow;
+	position: absolute;
+	left: 3%;
+	top: 100%;
+	font-size: 75px;
+	width: 100%;
+	margin: 30px auto;
+	text-align: center;
+}
+.imagesgallery1{
+	position: absolute;
+	top: 145%;
+	left: 5%;
+}
+.imagesgallery2{
+	position: absolute;
+	top: 120%;
+	right: 45%;
+
+}
+.imagesgallery3{
+	position: absolute;
+	top: 120%;
+	left: 5%;
+}
+.imagesgallery4{
+	position: absolute;
+	top: 145%;
+	right: 45%;
+}
+.video{
+	position: absolute;
+	top: 195%;
+	left: 20%;
+
+}
+.music{
+	position: absolute;
+	top: 185%;
+	left: 42%;
+
+}
+.videoandmusic{
+	position: absolute;
+	top: 180%;
+	left: 45%;
+}
+.contactme{
+	position: absolute;
+	top: 240%;
+	left: 33%;
+}
+.contactme-two{
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	top: 120%;
+	left: 20%;
+
+}
+.button-two{background-color: skyblue;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: tranform .4s;
+	text-align: center;
+	top: 250%;
+}
+footer{
+	position: absolute;
+	border: 6px solid transparent;
+	border-radius: 45px;
+	top: 280%;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	left: 48%;
+}
